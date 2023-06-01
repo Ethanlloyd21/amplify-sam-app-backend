@@ -1,0 +1,11 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "amplify-sam-app"
+resolve_s3 = true
+s3_prefix = "amplify-sam-app"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "GithubRepository=\"https://github.com/Ethanlloyd21/amplify-sam-app\" Stage=\"main\""
+image_repositories = []
