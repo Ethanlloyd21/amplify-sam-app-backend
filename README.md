@@ -6,3 +6,4 @@ This project is aimed at providing a comprehensive guide and structure to build 
 
 The idea of this project is not to focus on the front end (UX/UI) design but rather on how to build an application using Amplify and AWS SAM.
 
+### For the front end code please navigate to [https://github.com/Ethanlloyd21/amplify-sam-app]
