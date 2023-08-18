@@ -1,25 +1,7 @@
-// const { DynamoDB } = require("aws-sdk")
 
-// const db = new DynamoDB.DocumentClient()
-// const TableName = process.env.TABLE_NAME
-
-// exports.handler = async function (event) {
-//     console.log("request:", JSON.stringify(event));
-  
-//     // return response back to upstream caller
-//     return {
-//       statusCode: 200,
-//       headers: {
-//         "Access-Control-Allow-Origin": "*",
-//       },
-//       body: JSON.stringify('HELLLLOOO'),
-//     };
-//   };
 
 const AWS = require('aws-sdk');
-// AWS.config.update( {
-//   region: 'us-east-1'
-// });
+
 const dynamodb = new AWS.DynamoDB.DocumentClient();
 const dynamodbTableName = process.env.TABLE_NAME;
 const checkPath = '/check';
